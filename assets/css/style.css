@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    /* background-color: #EEFEFF; */
+    font-family: sans-serif;
+    padding: 50px;
+    background-color: #EEE;
+}
+
+#recipe_title {
+    font-size: 42px;
+    color: #888;
+    text-align: center;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+#section1 {
+    display: inline-block;
+    padding: 100px;
+    width: calc(100% - 200px);
+}
+
+.section_1_content {
+    width: 50%;
+    display: inline-block;
+}
+
+
+
+#poster {
+    float: right;
+}
+
+img {
+    max-height: 350px;
+    max-width: 100%;
+    float: right;
+}
+
+.section_title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+div.section_title {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #555;
+}
+
+.list_item.ingredients, .list_item.other_ingredients {
+    color: #555;
+}
+
+.list_item {
+
+}
+
+.ingredients {
+    /* color: #333; */
+}
+
+.method {
+    color: #555;
+}

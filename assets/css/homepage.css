@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+.item{
+    display: block;
+}
+
+.no-stretch{
+    object-fit: cover;
+}
+
+.poster{
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+.item-list{
+    width: 80%;
+    margin: auto;
+}
+
+.item{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: #0001;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.dish-content{
+    padding: 10px;
+    float: left;
+}
+.dish_title{
+    font-size: 42px;
+    font-weight: 600;
+}
+.dish_desc {
+    margin-top: 10px;
+    color: #0004;
+}
+.dish-specifications {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+}
+.spec .title {
+    font-weight: 600;
+    margin-right: 20px;
+    color: #0005;
+}
+.dish-type.non-veg {
+    background-color: #F00;
+}
+.dish-type {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    border-radius: 50%;
+}
+.dish-type.veg {
+    background-color: #0A0;
+}
+/* .spice_level {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px; */
+/* } */
+/* .spicy {
+    margin: 3px;
+    width: 5px;
+    height: 20px;
+    float: left;
+    background-color: red; */
+/* } */
+.spicy{
+    height: 78px;
+    float: right;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+}
+
